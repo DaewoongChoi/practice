@@ -13,4 +13,9 @@ public class Tests {
         Assertions.assertThat("test").isEqualTo("test"); //일부러 실패한 테스트 깃허브 ci테스트
     }
 
+    @Test
+    public void test2(){
+        Assertions.assertThat(1).isEqualTo(2);
+    }
+
 }
