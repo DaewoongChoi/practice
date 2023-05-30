@@ -10,7 +10,7 @@ public class Tests {
 
     @Test
     public void test(){
-        Assertions.assertThat("test").isEqualTo("tes"); //일부러 실패한 테스트 깃허브 ci테스트
+        Assertions.assertThat("test").isEqualTo("test"); //일부러 실패한 테스트 깃허브 ci테스트
     }
 
 }
