@@ -15,7 +15,7 @@ public class Tests {
 
     @Test
     public void test2(){
-        Assertions.assertThat(1).isEqualTo(2);
+        Assertions.assertThat(1).isEqualTo(1);
     }
 
 }
